@@ -1,5 +1,4 @@
-# Order-food
-This is an application created by myself and my friend @gharbiayoub23 to showcase all the things we have learned so far.
+# Order-food : an app that facilitates ordering your favorite food online.
+This is a mobile app created by myself and my friend @gharbiayoubdev to showcase all the things we have learned so far.
 
-Order food is a app that facilitates ordering your favorite food online.
-Check the video to see how the app works inside.
+![](https://github.com/sidChouaib/Order-food/blob/main/order%20food.gif)
