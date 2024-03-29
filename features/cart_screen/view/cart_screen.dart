@@ -141,26 +141,9 @@ class CartScreen extends StatelessWidget {
                   onTap: () async {
                 
 
-                    var satimRepo = SatimRepoImplementation();
+                    SATIM PAYMEN METHOD HERE
 
-                    // Call enregistrementOrder method and handle the result using Either
-                    var enregistrementOrderResult = await satimRepo
-                        .enregistrementOrder(enregistrementOrderModel);
-                    enregistrementOrderResult.fold((failure) {
-                      // Handle the failure case
-                      print('Error: $failure');
-                    }, (satimResponseModel) {
-                      // Handle the success case
-                      print('Success: $satimResponseModel');
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => CibWebWebViewPage(
-                              enregistrementOrderResult: satimResponseModel,
-                              context: context),
-                        ),
-                      );
-                      print(PaymentStateBloc().paymentState);
+ 
                       if (PaymentStateBloc().paymentState == '200') {
                         showDialog(
                           context: context,
