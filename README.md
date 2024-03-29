@@ -7,6 +7,9 @@ This is a mobile app created by myself and my friend @gharbiayoubdev to showcase
 - Firebase databse.
 - Basic animations (rive/lottie).
 
+EMAIL : chouaib.sid.ubma@gmail.com
+
+
 ![](https://komarev.com/ghpvc/?sidChouaib)
 
 ![](https://github.com/sidChouaib/Order-food/blob/main/Order-food%20(1).gif)
