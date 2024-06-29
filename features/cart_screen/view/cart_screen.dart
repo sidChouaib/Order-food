@@ -67,19 +67,6 @@ class CartScreen extends StatelessWidget {
     ));
   }
 
-  /// Section Widget
-  Widget _itemsAndInfoButon(BuildContext context) {
-    return Padding(
-        padding: const EdgeInsets.all(24),
-        child: Row(children: [
-          _buildCategoryItem(
-              context: context, categoryName: "My Items", categoryIndex: 0),
-          const SizedBox(width: 24),
-          _buildCategoryItem(
-              context: context, categoryName: "Extra Services", categoryIndex: 1),
-        ]));
-  }
-
   Widget _buildCategoryItem({
     required BuildContext context,
     required String categoryName,
